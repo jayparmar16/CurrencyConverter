@@ -6,6 +6,7 @@ def CurrConvert():
   print("Accepted Currencies : ")
   for c in currencies:
     print(c,end=" / ")
+    
   flag = True
   while flag == True:
     amount = input("Enter the amount = ")
